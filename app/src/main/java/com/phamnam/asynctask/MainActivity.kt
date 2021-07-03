@@ -62,6 +62,7 @@ class MainActivity : AppCompatActivity() {
         override fun onPostExecute(result: String?) {
             super.onPostExecute(result)
             Toast.makeText(this@MainActivity,"DownLoaded",Toast.LENGTH_SHORT).show()
+            btnDownload.text = "Open"
         }
 
     }
